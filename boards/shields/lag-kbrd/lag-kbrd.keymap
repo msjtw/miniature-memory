@@ -5,13 +5,14 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer { // Layer 0
-        bindings = <
-            &kp Z  &kp M  &kp K  &kp L  &kp N  &kp Q
-            &kp A  &kp B  &kp C  &kp I  &kp J  &kp W
-            &kp D  &kp E  &kp F  &kp G  &kp H  &kp R
-            &kp 1  &kp 2  &kp 3  &kp 4  &kp 5  &kp T
-            &kp 6  &kp 7  &kp 8  &kp 9  &kp 0  &kp Y
-        >;
+        default_layer {
+            bindings = <
+                &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y
+                &kp A  &kp S  &kp D  &kp F  &kp G  &kp H
+                &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N
+                &kp 1  &kp 2  &kp 3  &kp 4  &kp 5  &kp 6
+                &kp 7  &kp 8  &kp 9  &kp 0  &kp SPACE
+            >;
+        };
     };
- };
+};
