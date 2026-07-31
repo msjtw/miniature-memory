@@ -40,4 +40,10 @@
         zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout0;
     };
+
+    &i2c0 {
+        status = "okay";
+        sda-pin = <2>;
+        scl-pin = <3>;
+    };
 };
